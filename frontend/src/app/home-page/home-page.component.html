@@ -119,7 +119,7 @@
     <!-- Three columns of text below the carousel -->
     <div class="row" *ngFor="let item of models">
             <div class="col-lg-4">
-              <a href=""><h2>{{item.title}}</h2></a>
+              <a [routerLink]="['content', item.id]"><h2>{{item.title}}</h2></a>
             </div>
     </div><!-- /.row -->
   </div><!-- /.container -->

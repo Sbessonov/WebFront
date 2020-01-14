@@ -10,7 +10,7 @@ import {RouterModule, Routes} from '@angular/router';
 
 const appRoutes: Routes = [
   {path: '', component: HomePageComponent},
-  {path: 'content', component: ContentPageComponent},
+  {path: 'content/:id', component: ContentPageComponent},
 ];
 
 @NgModule({
